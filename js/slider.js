@@ -53,7 +53,7 @@ buttons.forEach(btn => btn.addEventListener('click',function btnCheck(){
     }
     slide();
 }));
-
+setInterval(slide(),3000)
 options.forEach(option => option.addEventListener('click', function optionFnc(){
     let i = Number(this.getAttribute('option-index'));
     index = i +1;
